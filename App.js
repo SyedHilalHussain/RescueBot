@@ -2,9 +2,9 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import SplashScreen from './Screens/SplashScreen';
-import AboutUs from './Screens/AboutUs';
-import MainChatScreen from './Screens/MainChatScreen';
+import SplashScreen from './assets/Screens/SplashScreen';
+import AboutUs from './assets/Screens/AboutUs';
+import MainChatScreen from './assets/Screens/MainChatScreen';
 
 const Stack = createStackNavigator();
 
